@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fundologin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CIÊNCIAS"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- TextView para exibir a pergunta -->
+    <TextView
+        android:id="@+id/textView_question"
+        android:layout_width="340dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="@color/purpleLight"
+        android:background="@drawable/rounded_textview_bg"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <!-- Botões para as opções de resposta -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="RES1"
+        android:textSize="18sp"
+        style="@style/Widget.MaterialComponents.Button.Icon"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="RES2"
+        android:textSize="18sp"
+        style="@style/Widget.MaterialComponents.Button.Icon"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="RES3"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        style="@style/Widget.MaterialComponents.Button.Icon"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="RES4"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        style="@style/Widget.MaterialComponents.Button.Icon"/>
+
+    <!-- Botão de voltar -->
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Voltar"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purpleDark"
+        android:textSize="18sp"
+        android:onClick="voltarC"
+        style="@style/Widget.MaterialComponents.Button.Icon"/>
+
+</LinearLayout>

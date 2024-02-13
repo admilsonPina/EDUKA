@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fundologin">
+
+    <!-- Espaço reservado para a imagem do tutorial -->
+    <ImageView
+        android:id="@+id/imageViewTutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Espaço reservado para o vídeo do tutorial -->
+    <VideoView
+        android:id="@+id/videoViewTutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible" />
+
+    <!-- Texto de explicação ou instruções -->
+
+    <!-- Botão para avançar para a próxima tela -->
+
+    <TextView
+        android:id="@+id/textViewInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Siga as instruções para aprender mais."
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Próximo"
+        android:textSize="18sp" />
+
+</LinearLayout>
+
+

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundologin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Seu conteúdo atual -->
+
+        <TextView
+            android:id="@+id/olaUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="SEJA BEM VINDO"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewBemVindo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_matematica"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:onClick="matematica"
+            android:text="Matemática "
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_portugues"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:onClick="portugues"
+            android:text="Português"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_ciencia"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:onClick="ciencia"
+            android:text="Ciências"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_tecnologia"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:onClick="tecnologia"
+            android:text="Tecnologia"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/btnvolta"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:onClick="voltarT2"
+            android:text="Voltar"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purpleDark"
+            android:textSize="25sp"
+            tools:ignore="DuplicateIds" />
+
+    </LinearLayout>
+
+    <!-- Botão "Vamos Aprender" -->
+    <Button
+        android:id="@+id/btn_vamos_aprender"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="41dp"
+        android:onClick="telaTutorial"
+        android:text="Quero Aprender"
+        android:backgroundTint="@color/purpleDark"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
+

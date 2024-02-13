@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fundologin">
+
+    <!-- Título da pontuação -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pontuação"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Exibição da pontuação -->
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <!-- Total de perguntas -->
+    <TextView
+        android:id="@+id/textViewTotalQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Respostas incorretas -->
+    <TextView
+        android:id="@+id/textViewIncorrectAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botão de terminar -->
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminar"
+        android:textSize="20sp"
+        android:layout_marginTop="32dp"
+        style="@style/Widget.MaterialComponents.Button.Icon"/>
+
+</LinearLayout>
