@@ -3,7 +3,7 @@
 
 # Introdução
 
-O presente relatório visa apresentar o processo de desenvolvimento do aplicativo EDUKA. Trata-se de um aplicativo educativo cujo objetivo principal é proporcionar uma experiência de aprendizado interativo por meio de perguntas nas áreas de Português, Matemática, Ciências e Tecnologia.
+O presente relatório visa apresentar o processo de desenvolvimento do aplicativo Android EDUKA. Trata-se de um aplicativo educativo cujo objetivo principal é proporcionar uma experiência de aprendizado interativo por meio de perguntas nas áreas de Português, Matemática, Ciências e Tecnologia.
 
 ## Justificativa
 
@@ -47,12 +47,14 @@ Desenvolver um aplicativo educativo de fácil uso, capaz de ajudar estudantes in
 ### Design de Interface do Utilizador (UI) e Experiência do Utilizador (UX)
 
 * **Tela Inicial:**
+* 
   ![Tela Inicial](img/TelaIncial.png)
 
     * Permite que os Utilizadores insiram seus nomes e cliquem no botão "ENTRAR" para acessar o aplicativo.
     * Utiliza elementos como `LinearLayout`, `TextView` e `Button` para definir a estrutura visual.
 
 * **Tela Principal:**
+* 
    ![Tela Principal](img/TelaPrincipal.png)
 
     * Este layout proporciona uma interface de utilizador fácil de usar para os utilizadores do aplicativo Eduka, permitindo que eles escolham entre diferentes categorias de perguntas ou voltem à tela anterior.
@@ -60,11 +62,14 @@ Desenvolver um aplicativo educativo de fácil uso, capaz de ajudar estudantes in
     * Cada botão possui um ID único, um texto que descreve a categoria e um método de callback que será chamado quando o botão for clicado.
 
 * **Telas temáticas:**
+* 
   ![Tela Matemática](img/Mat.png) ![Tela Português](img/Pt.png) ![Tela Ciências](img/CC.png) ![Tela Tecnologia](img/TI.png)
+  
     * Apresentam perguntas e respostas relacionadas a cada tema específico.
     * Utilizam elementos como `LinearLayout`, `TextView`, `RadioButton` e `ImageView` para definir a estrutura visual.
 
 * **Tela Pontuação:**
+* 
   ![Tela Pontuação](img/Pont.png)
 
     * Mostra o desempenho do usuário em cada tema, com informações sobre acertos, erros e tempo gasto.
